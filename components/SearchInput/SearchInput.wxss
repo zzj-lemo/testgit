@@ -1,0 +1,23 @@
+/* components/SearchInput/SearchInput.wxss */
+
+.header {
+  width: 100%;
+  height: 100%;
+  padding: 10rpx 20rpx;
+  box-sizing: border-box;
+  background-color: #EB4450;
+}
+
+.header navigator {
+  width: 100%;
+  line-height: 70rpx;
+  height: 70rpx;
+  border-radius: 40rpx;
+  border: 1px solid #999;
+  padding: 0 20rpx;
+  box-sizing: border-box;
+  font-size: 24rpx;
+  color: #666;
+  background-color: #FFFFFF;
+  text-align: center;
+}

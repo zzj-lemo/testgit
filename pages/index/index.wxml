@@ -1,0 +1,35 @@
+<!--index.wxml-->
+<SearchInput></SearchInput>
+<!-- 轮播-->
+<view class='swiper'>
+	<swiper indicator-dots autoplay circular indicator-active-color="#ff6868">
+		<block wx:for='{{swiperList}}' wx:key="{{index}}">
+			<swiper-item>
+				<navigator url="{{item.navigator_url}}">
+					<image src="{{item.image_src}}" mode="widthFix" />
+				</navigator>
+				
+			</swiper-item>
+		</block>
+	</swiper>
+</view>
+<!-- 导航 -->
+<view class='cates'>
+	<navigator open-type="navigate" wx:for='{{catesList}}' wx:key="{{index}}" url="/pages/list/list" open-type="switchTab">
+		<image src="{{item.image_src}}" mode="widthFix" />
+	</navigator>
+</view>
+<!-- 楼层 -->
+<view class="floor">
+	<view class='floor_group' wx:for='{{floList}}' wx:for-item='item' wx:for-index='index' wx:key="{{index}}">
+		<view class="floor_title">
+			<image src="{{item.floor_title.image_src}}" mode="widthFix" />
+		</view>
+		<view class="floor_list">
+			<navigator open-type="navigate" wx:for='{{item.product_list}}' wx:for-item='item1' wx:for-index='index1' wx:key="{{index1}}" url="{{item1.navigator_url}}">
+				<image src="{{item1.image_src}}" mode="{{index1 === 0 ? 'widthFix' : 'scaleToFill'}}" />
+			</navigator>
+		</view>
+	
+	</view>
+</view>

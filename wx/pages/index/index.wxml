@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+  <!-- 搜索 -->
+  <SearchInput></SearchInput>
+  <image src="../../icon/news.png" mode="widthFix"></image>
+</view>

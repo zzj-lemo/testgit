@@ -1,0 +1,10 @@
+/**app.wxss**/
+view{
+  box-sizing: border-box;
+  font-size: 30rpx;
+  --themeColor:#EB4450;
+}
+
+image{
+  width: 100%;
+}

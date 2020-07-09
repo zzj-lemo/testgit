@@ -1,0 +1,46 @@
+/* pages/list/list.wxss */
+.content{
+  display: flex;
+  height: calc( 100vh - 90rpx );
+}
+
+.con_left{
+  flex: 2;
+}
+
+.con_left view{
+  height: 80rpx;
+  text-align: center;
+  line-height: 80rpx;
+}
+
+.con_right{
+  flex: 5;
+}
+
+.con_right .goods_title{
+  height: 80rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.con_right .goods_title .delimiter{
+  color: #ccc;
+  padding: 0 10rpx;
+}
+.con_right .goods_list{
+  display: flex;
+  flex-wrap: wrap;
+}
+.con_right .goods_list navigator{
+  width: 33.33%;
+  text-align: center;
+  font-size: 30rpx;
+}
+.con_right .goods_list navigator image{
+  width: 50%;
+}
+.active{
+  color: #ff6868;
+  border-left: 5rpx solid #ff6868;
+}

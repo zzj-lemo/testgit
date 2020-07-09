@@ -1,0 +1,4 @@
+<!--components/SearchInput/SearchInput.wxml-->
+<view class="header">
+  <navigator url="/pages/search/search" hover-class="navigator-hover" open-type='navigate'>搜索</navigator>
+</view>

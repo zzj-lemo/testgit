@@ -1,0 +1,7 @@
+<!--components/SearchInput/SearchInput.wxml-->
+<view class="header">
+<image src="../../icon/search.png" mode="widthFix"></image>
+  <navigator url="/pages/search/search">
+  搜索项目、基金、机构、行业
+  </navigator>
+</view>

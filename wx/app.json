@@ -1,0 +1,54 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/capital/capital",
+    "pages/project/project",
+    "pages/my/my",
+    "pages/about/about"
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "挚信宝",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#636ce2",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icon/index.png",
+        "selectedIconPath": "icon/index1.png"
+      },
+      {
+        "pagePath": "pages/capital/capital",
+        "text": "找资金",
+        "iconPath": "icon/capital.png",
+        "selectedIconPath": "icon/capital1.png"
+      },
+      {
+        "pagePath": "pages/project/project",
+        "text": "找项目",
+        "iconPath": "icon/project.png",
+        "selectedIconPath": "icon/project1.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于我们",
+        "iconPath": "icon/about.png",
+        "selectedIconPath": "icon/about1.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "icon/my.png",
+        "selectedIconPath": "icon/my1.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
